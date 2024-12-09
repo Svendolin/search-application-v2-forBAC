@@ -18,7 +18,7 @@ const Page = async ({searchParams}: PageProps) => {
     return redirect('/') // We can not process an array of queries or an undefined query especially if its not a string. Redirect to the root page.
 }
 
-// quering logic goes here to get the database that we want to show to the user
+// Quering logic goes here to get the database that we want to show to the user
 // Type safe SQL Syntax thanks to Drizzle ORM
 let products = await db // We will use let instead of const because we will be changing the value of products
 .select()
