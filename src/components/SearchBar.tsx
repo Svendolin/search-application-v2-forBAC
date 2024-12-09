@@ -25,9 +25,6 @@ const SearchBar = () => {
   }
 
 
-
-
-
   {/* SearchBar component + Button component */}
   
 
